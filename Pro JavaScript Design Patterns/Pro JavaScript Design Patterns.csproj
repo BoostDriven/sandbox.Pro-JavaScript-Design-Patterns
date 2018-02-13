@@ -108,6 +108,49 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Chapter1\1.01 - The flexibility of JavaScript.js" />
+    <Content Include="Chapter1\1.02 - Functions as first-class objects.js" />
+    <Content Include="Chapter1\1.03 - The mutability of objects.js" />
+    <Content Include="Chapter2\2.01 - Describing interfaces with comments.js" />
+    <Content Include="Chapter2\2.02 - Emulating Interfaces with attribute checking.js" />
+    <Content Include="Chapter2\2.03 - Emulating interfaces with duck typing.js" />
+    <Content Include="Chapter2\2.04 - The interface implementation for this book.js" />
+    <Content Include="Chapter2\2.05 - The interface class.js" />
+    <Content Include="Chapter2\2.06 - When to use the Interface class.js" />
+    <Content Include="Chapter3\3.01 - Book example class.js" />
+    <Content Include="Chapter3\3.02 - Fully exposed object.js" />
+    <Content Include="Chapter3\3.03 - Private methods with underscore.js" />
+    <Content Include="Chapter3\3.04 - Scope, nested functions, and closure.js" />
+    <Content Include="Chapter3\3.05 - Private methods with closure.js" />
+    <Content Include="Chapter3\3.06 - Static members.js" />
+    <Content Include="Chapter3\3.07 - Constants.js" />
+    <Content Include="Chapter4\4.01 - Classical inheritance.js" />
+    <Content Include="Chapter4\4.02 - The prototype chain.js" />
+    <Content Include="Chapter4\4.03 - The extend function.js" />
+    <Content Include="Chapter4\4.04 - Prototypal inheritance.js" />
+    <Content Include="Chapter4\4.05 - Asymmetrical reading and writing.js" />
+    <Content Include="Chapter4\4.06 - The clone function.js" />
+    <Content Include="Chapter4\4.07 - Mixin class.js" />
+    <Content Include="Chapter4\4.08 - The augment function.js" />
+    <Content Include="Chapter4\4.09 - Edit-in-place example.classical.js" />
+    <Content Include="Chapter4\4.10 - Edit-in-place example.prototypal.js" />
+    <Content Include="Chapter5\5.01 - Basic structure of the Singleton.js" />
+    <Content Include="Chapter5\5.02 - Namespacing.js" />
+    <Content Include="Chapter5\5.03 - Wrappers for page specific code.js" />
+    <Content Include="Chapter5\5.05 - Private methods with closure.js" />
+    <Content Include="Chapter5\5.06 - Comparing the two techniques.js" />
+    <Content Include="Chapter5\5.07 - Lazy instantiation.js" />
+    <Content Include="Chapter5\5.08 - Branching.js" />
+    <Content Include="Chapter5\5.09 - Creating XHR objects with branching.js" />
+    <Content Include="Chapter7\7.01 - The simple factory.js" />
+    <Content Include="Chapter7\7.02 - The factory pattern.js" />
+    <Content Include="Chapter7\7.03 - XHR factory example.js" />
+    <Content Include="Chapter7\7.04 - Specialized connection objects.js" />
+    <Content Include="Chapter7\7.05 - Choosing connection objects at run-time.js" />
+    <Content Include="Chapter7\7.06 - RSS reader example.js" />
+    <Content Include="Chapter8\8.01 - Event Listener example.js" />
+    <Content Include="Chapter8\8.02 - Other examples of bridges.js" />
+    <Content Include="Chapter8\8.03 - Bridging multiple classes together.js" />
     <Content Include="scripts\ai.0.22.9-build00167.js" />
     <Content Include="scripts\ai.0.22.9-build00167.min.js" />
     <Content Include="Web.config" />
@@ -117,6 +160,9 @@
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Introduction\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
